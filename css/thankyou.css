@@ -1,0 +1,19 @@
+.inner {
+  align-items: center;
+}
+
+.inner .result {
+  width: 75%;
+  height: 40px;
+  border-radius: 30px;
+  color: #FF5F00;
+  background: #6b778d;
+  text-align: center;
+  line-height: 40px;
+  font-weight: 700;
+}
+
+.inner h2,
+p {
+  text-align: center;
+}
