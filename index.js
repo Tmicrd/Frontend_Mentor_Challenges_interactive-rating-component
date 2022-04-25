@@ -15,5 +15,35 @@ input.addEventListener("mouseout", (e) => {
 });
 
 // 评分效果
-const rating = document.querySelector(".rating");
+const star1 = document.querySelector(".star1");
+const star2 = document.querySelector(".star2");
+const star3 = document.querySelector(".star3");
+const star4 = document.querySelector(".star4");
+const star5 = document.querySelector(".star5");
 
+// console.log(star1);
+
+star1.addEventListener("click", (e) => {
+  console.log("star1")
+  e.target.style.opacity = 1;
+});
+
+star2.addEventListener("click", (e) => {
+  console.log(star1)
+  e.target.style.opacity = 1;
+  star1.style.opacity = 1;
+});
+
+star3.addEventListener("click", (e) => {
+  console.log("star3")
+});
+
+star4.addEventListener("click", (e) => {
+  console.log("star4")
+
+});
+
+star5.addEventListener("click", (e) => {
+  console.log("star5")
+
+});

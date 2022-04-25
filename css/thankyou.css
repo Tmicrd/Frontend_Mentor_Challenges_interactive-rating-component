@@ -4,12 +4,12 @@
 
 .inner .result {
   width: 75%;
-  height: 40px;
-  border-radius: 30px;
+  height: 2.5rem;
+  border-radius: 1.87rem;
   color: #FF5F00;
   background: #6b778d;
   text-align: center;
-  line-height: 40px;
+  line-height: 2.5rem;
   font-weight: 700;
 }
 

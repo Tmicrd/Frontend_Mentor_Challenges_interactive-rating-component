@@ -1,6 +1,6 @@
 .star {
-  width: 39px;
-  height: 39px;
+  width: 3rem;
+  height: 3rem;
   background: #6b778d;
   border-radius: 50%;
   display: flex;
@@ -21,12 +21,17 @@
 }
 
 .inner input {
-  width: 100%;
-  height: 40px;
-  border-radius: 30px;
+  /* width: 100%; */
+  padding: 0.8rem 6.7rem;
+  /* height: 40px; */
+  border-radius: 3rem;
   background: #f76e11;
   /* outline: none; */
-  border: 0px;
+  border: 0rem;
   font-weight: 700;
-  letter-spacing: 1.5px;
+  letter-spacing: 0.15rem;
+}
+
+input {
+  margin-left: 0.8rem;
 }

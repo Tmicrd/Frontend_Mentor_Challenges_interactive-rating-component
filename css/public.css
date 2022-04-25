@@ -1,6 +1,6 @@
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0rem;
+  padding: 0rem;
 }
 
 html,
@@ -11,19 +11,19 @@ body {
 
 .container {
   display: flex;
-  width: 380px;
-  height: 400px;
+  width: 23rem;
+  height: 25rem;
   border-radius: 7%;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 6rem;
   background: #263859;
 }
 
 .inner {
-  margin: 30px;
+  margin: 2rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .inner h2,
@@ -33,6 +33,6 @@ input {
 }
 
 p {
-  margin-top: 10px;
+  margin-top: 0.6rem;
   font-weight: 100;
 }
