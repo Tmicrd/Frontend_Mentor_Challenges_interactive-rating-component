@@ -16,7 +16,11 @@
   justify-content: space-evenly;
 }
 
-.rating img {
+.star.active img {
+  opacity: 1;
+}
+
+.star img {
   opacity: 0.3;
 }
 
