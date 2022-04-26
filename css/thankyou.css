@@ -1,19 +1,22 @@
-.inner {
+.thankyou-board {
+  display: none;
+}
+.thankyou-board .inner {
   align-items: center;
 }
 
-.inner .result {
+.thankyou-board .inner .result {
   width: 75%;
   height: 2.5rem;
   border-radius: 1.87rem;
-  color: #FF5F00;
+  color: #ff5f00;
   background: #6b778d;
   text-align: center;
   line-height: 2.5rem;
   font-weight: 700;
 }
 
-.inner h2,
-p {
+.thankyou-board .inner h2,
+.thankyou-board .inner p {
   text-align: center;
 }
